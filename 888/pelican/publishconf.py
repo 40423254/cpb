@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40423254'
-SITENAME = '2015FALL 40423254 cpb 作業'
+AUTHOR = 'KMOL'
+SITENAME = '2015FALL KMOL 課程'
 SITEURL = ''
 
 PATH = 'content'
@@ -49,9 +49,15 @@ DISQUS_SITENAME = "2015fall"
 #GOOGLE_ANALYTICS = ""
 
 # 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
+PLUGIN_PATHS = ['./../plugin']
 PLUGINS = ['liquid_tags.notebook']
 # 目錄設定相對於 reveal 下的 content 目錄
 NOTEBOOK_DIR = 'notebook'
-
+'''
+if not os.path.exists('_nb_header.html'):     
+    import warnings 
+    warnings.warn("_nb_header.html not found.") 
+else: 
+    EXTRA_HEADER = open('_nb_header.html', encoding="utf-8").read()
+'''
 
