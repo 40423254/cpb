@@ -398,6 +398,17 @@
 <v t="leo.20151115113310.1"><vh>@edit 40423254_cp_w3_p.html</vh></v>
 <v t="leo.20151115113312.1"><vh>@edit 40423254_cp_w4_p.html</vh></v>
 <v t="leo.20151115113314.1"><vh>@edit 40423254_cp_w5_p.html</vh></v>
+<v t="leo.20160115145752.1"><vh>@edit 40423254_cp_w6_p.html</vh></v>
+<v t="leo.20160115145753.1"><vh>@edit 40423254_cp_w7_p.html</vh></v>
+<v t="leo.20160115145755.1"><vh>@edit 40423254_cp_w8_p.html</vh></v>
+<v t="leo.20160115145757.1"><vh>@edit 40423254_cp_w9_p.html</vh></v>
+<v t="leo.20160115145758.1"><vh>@edit 40423254_cp_w10_p.html</vh></v>
+<v t="leo.20160115145759.1"><vh>@edit 40423254_cp_w11_p.html</vh></v>
+<v t="leo.20160115145801.1"><vh>@edit 40423254_cp_w12_p.html</vh></v>
+<v t="leo.20160115145802.1"><vh>@edit 40423254_cp_w13_p.html</vh></v>
+<v t="leo.20160115145803.1"><vh>@edit 40423254_cp_w14_p.html</vh></v>
+<v t="leo.20160115145804.1"><vh>@edit 40423254_cp_w15_p.html</vh></v>
+<v t="leo.20160115145808.1"><vh>@edit 40423254_cp_w18_p.html</vh></v>
 <v t="leo.20151115112243.3" a="E"><vh>@path pelican</vh>
 <v t="leo.20151115112243.4"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151115112243.5" a="E"><vh>@path content</vh>
@@ -406,6 +417,18 @@
 <v t="leo.20151115113449.1"><vh>@edit 40423254_cp_w3.md</vh></v>
 <v t="leo.20151115113452.1"><vh>@edit 40423254_cp_w4.md</vh></v>
 <v t="leo.20151115113450.1"><vh>@edit 40423254_cp_w5.md</vh></v>
+<v t="leo.20160115150237.1"><vh>@edit 40423254_cp_w6.md</vh></v>
+<v t="leo.20160115150239.1"><vh>@edit 40423254_cp_w7.md</vh></v>
+<v t="leo.20160115150240.1"><vh>@edit 40423254_cp_w8.md</vh></v>
+<v t="leo.20160115150242.1"><vh>@edit 40423254_cp_w9.md</vh></v>
+<v t="leo.20160115150243.1"><vh>@edit 40423254_cp_w10.md</vh></v>
+<v t="leo.20160115150245.1"><vh>@edit 40423254_cp_w11.md</vh></v>
+<v t="leo.20160115150246.1"><vh>@edit 40423254_cp_w12.md</vh></v>
+<v t="leo.20160115150247.1"><vh>@edit 40423254_cp_w13.md</vh></v>
+<v t="leo.20160115150248.1"><vh>@edit 40423254_cp_w14.md</vh></v>
+<v t="leo.20160115150250.1"><vh>@edit 40423254_cp_w15.md</vh></v>
+<v t="leo.20160115150252.1"><vh>@edit 40423254_cp_w17.md</vh></v>
+<v t="leo.20160115150254.1"><vh>@edit 40423254_cp_w18.md</vh></v>
 </v>
 </v>
 </v>
@@ -1853,267 +1876,9 @@ g.es("admin pelican 執行完畢")</t>
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20151115112243.1"></t>
-<t tx="leo.20151115112243.2">@language html
-&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法1
---&gt;
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;40423254作業一&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;zero to hero python教學 &lt;/h1&gt;
-    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;	
-&lt;/section&gt;
-	
-&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;何謂python?&lt;/h1&gt;
-    &lt;p&gt;python是一種網路語言，在許多程式語言當中算是最簡單的一種。pythone與其他程式語言最不同的地方，他的資料是開放式的。這令許多程式編輯上有許多莫大的幫助。而許多網站也開放使用python進行協同作業，例如github。這些網站聲稱自己是免費(free)，但其更重要的層次更是自由。
-&lt;/section&gt;
-&lt;section&gt;
-    &lt;h1&gt;python指令&lt;/h1&gt;
-print:輸出
-&lt;br /&gt;
-print指令可以列出後段括弧及雙"內的字
-&lt;br /&gt;
-例如:print("hello world")
-&lt;br/&gt;
-#:註解
-&lt;br/&gt;
-#後面的字將不會被列出來
-&lt;br/&gt;
-例如:#末速度=初速度+加速度*時間
-&lt;/section&gt;
-				
-&lt;section&gt;
-    &lt;h1&gt;心得&lt;/h1&gt;
-    &lt;p&gt;第一次接觸程式語言，他就有如一座迷宮，第一次進入，你會完全不知道方向。但是多走幾次，你甚至可以摸透它的每一條路徑。它可以利用不同的指令，來達到欲完成的作業。&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;h1&gt;自評&lt;/h1&gt;
-    &lt;p&gt;第一次學，算是有點收穫，但許多細節無法搞懂，自評60分。&lt;/p&gt;
-&lt;/section&gt;
-				
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-&lt;/body&gt;
-</t>
 <t tx="leo.20151115112243.3"></t>
-<t tx="leo.20151115112243.4">@language python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
-import os
-
-AUTHOR = '40423254'
-SITENAME = '2015FALL 40423254 cpb 作業'
-SITEURL = ''
-
-PATH = 'content'
-
-TIMEZONE = 'Asia/Taipei'
-
-DEFAULT_LANG = 'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),)
-
-# Social widget
-SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
-          ('github', 'http://github.com/ametaireau'),)
-          
-DEFAULT_PAGINATION = 10
-
-SITEURL = 'http://coursemdetw.github.io/reveal'
-RELATIVE_URLS = True
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-
-DELETE_OUTPUT_DIRECTORY = True
-
-# Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-DISQUS_SITENAME = "2015fall"
-#GOOGLE_ANALYTICS = ""
-
-# 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
-PLUGINS = ['liquid_tags.notebook']
-# 目錄設定相對於 reveal 下的 content 目錄
-NOTEBOOK_DIR = 'notebook'
-
-
-</t>
 <t tx="leo.20151115112243.5"></t>
-<t tx="leo.20151115112243.6">@language md
-Title: 2015 計算機程式 作業一
-Date: 2015-09-19 11:41
-Category: Python
-Tags: pelican, publishing
-Slug: 2015cp_hw_w1
-Authors: 40423254
-Summary: 作業一摘要
-
-以下為作業一內容
-
-利用 iframe 嵌入投影片:
-
-&lt;iframe src="40423254_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-[作業一投影片](40423254_cp_w1_p.html){:target="_blank"}
-
-&lt;iframe src="https://player.vimeo.com/video/145711407" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/145711407"&gt;W1&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-使用 H1 標題
-============
-
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
-
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
-
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
-
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
-
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
-
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
-
-H2 標題
-------------
-
-有數字的表列資料:
-
- 1. 第1項
- 2. 第2項
- 3. 第3項
-
-跟前面一樣, 文字從第四個欄位開始.
-
-程式碼的表達:
-
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
-
-這裡也是要空4個 space 鍵. 
-
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
-
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
-}
-~~~
-
-(這樣的表達比較容易用來複製程式碼內容).
-
-python 的程式碼, 可以寫成下列格式
-
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
-
-以下為另外一種嵌入程式碼的方法:
-
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
-
-### H3 標題 ###
-
-以下則為內嵌式的表列法t:
-
- 1. 首先, 將完成下列元件的設計:
-
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
-
- 2. 接著連繫工業設計部門.
-
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
-
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
-
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
-
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
-
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
-
-[^1]: 註腳會連結到這裡.
-
-放入圖檔, 可以直接利用 html 的 img 標註:
-
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
-
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
-
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-</t>
-<t tx="leo.20151115113307.1">@language html
+<t tx="leo.20160115145752.1">@language html
 &lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
 其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
@@ -2124,7 +1889,7 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
 &lt;html lang="en"&gt;
 &lt;head&gt;
 &lt;meta charset="utf-8"&gt;
-&lt;title&gt;40423254作業二&lt;/title&gt;
+&lt;title&gt;40423254作業六&lt;/title&gt;
 &lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
 	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
 	&lt;!--增加對於 IE 早期版本的支援 --&gt;
@@ -2141,314 +1906,32 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;zero to hero python教學2 &lt;/h1&gt;
+    &lt;h1&gt;zero to hero python教學6&lt;/h1&gt;
     &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
 &lt;/section&gt;
 	
-&lt;section id="hw-task-two"&gt;
-    &lt;h1&gt;引號 ' 及 " 的使用規則&lt;/h1&gt;
-    &lt;p&gt;單引號 ' 及雙引號 " 都能使print("hello world")及print('hello world')列出hello world。但兩者不能同使混用，否則會出現錯誤。&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;h1&gt;引號內的其他符號運算&lt;/h1&gt;
-    &lt;p&gt;在兩個引號字串中間加入+號可使兩個引號內的字串合併。例如print("hello"+"world")即可列出hello world&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;h1&gt;引號內的其他符號運算2&lt;/h1&gt;
-    &lt;p&gt;在兩個引號中間加入/符號可使兩個引號內的字串分成兩行。例如print("hello/world")即可列出:
-    &lt;br/&gt;hello
-    &lt;br/&gt;world&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;h1&gt;引號內的其他符號運算3&lt;/h1&gt;
-    &lt;p&gt;三個引號"""所列出的效果和/符號相同。例如print("""hello world""")可列出
-    &lt;br/&gt;hello
-    &lt;br/&gt;world&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1&gt;心得&lt;/h1&gt;
-程式語言中有許多計算符號，每一種符號都有不同的效果，就像加減乘除一樣。每次完成前，都得先檢查一次，避免出錯。
-&lt;/section&gt;
-&lt;section&gt;
-    &lt;h1&gt;自評&lt;/h1&gt;
-    &lt;p&gt;這次的內容簡單易懂，學得很快，自評70分。&lt;/p&gt;
-&lt;/section&gt;
-				
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-&lt;/body&gt;
-</t>
-<t tx="leo.20151115113310.1">@language html
-&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;40423254作業三&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;zero to hero python教學3 &lt;/h1&gt;
-    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
-&lt;/section&gt;
-	
-&lt;section id="hw-task-three"&gt;
-    &lt;h1&gt;指令input&lt;/h1&gt;
-    &lt;p&gt;輸入input可和python語言做互動。例如我們要使python問數學問題，我們可以輸入:input("1+1=") print("2")。之後系統會問你1+1=，這時不管輸入甚麼，答案都會是4。&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-    &lt;h1&gt;指令input2&lt;/h1&gt;
-利用input指令也可以創造一個二元一次方程式。例如:
-&lt;br/&gt;x=input("請輸入一個數字帶入x")
-&lt;br/&gt;y=input("請輸入一個數字帶入y")
-&lt;br/&gt;print("sqrt(x^2+y^2)")
-&lt;br/&gt;這時輸入x=3、y=4則可得到sqrt(3^2+4^2)=5
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1&gt;指令input3&lt;/h1&gt;
-input指令有些限制，例如:
-&lt;/br&gt;
-開頭不能是數字
-&lt;/br&gt;
-開頭不能有空白鍵
-&lt;/br&gt;
-大小寫會視為不同代數
-&lt;/br&gt;
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1&gt;心得&lt;/h1&gt;
-&lt;p&gt;input指令可以用來和python作互動，或是創造一些公式，並將未知數帶入求得答案。這個指令可以使我們運算數學更為快速。&lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-    &lt;h1&gt;自評&lt;/h1&gt;
-    &lt;p&gt;學得還不錯，自評70分&lt;/p&gt;
-&lt;/section&gt;
-				
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-&lt;/body&gt;
-</t>
-<t tx="leo.20151115113312.1">@language html
-&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;40423254作業四&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;zero to hero python教學4&lt;/h1&gt;
-    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
-&lt;/section&gt;
-	
-&lt;section id="hw-task-four"&gt;
-    &lt;h1&gt;storing numbers&lt;/h1&gt;
-  &lt;br/&gt;store:儲存
-  &lt;br/&gt;number:數字
-  &lt;br/&gt;storing numbers可將變數儲存起來，留到後面做數字間的運算，可以做出一個簡單的函數式子，以便我們帶入數字時得到答案。
-&lt;/section&gt;
-  
-&lt;section&gt;
-距離=速率*時間，我們要讓程式知道速率和時間，可以輸入:
-速率=5 #公尺/秒
-&lt;br /&gt;
-時間=20 #秒
-&lt;br /&gt;
-距離=速率*時間
-&lt;br /&gt;
-print(距離)
-&lt;br /&gt;
-接著就會顯示算出來的距離。
-&lt;/section&gt;
-
-&lt;section&gt;
-print裡面的字串不能同時存在文字及代數，所以要把代數轉換為文字。它有幾個規則:
-    &lt;br /&gt;
-print("經過的距離為%f" % 距離)&gt;&gt;經過的距離為100.000000 
-    &lt;br /&gt;
-print("經過的距離為%.2f" % 距離)&gt;&gt;經過的距離為100.00 
-    &lt;br /&gt;
-print("經過的距離為%d" % 100)&gt;&gt;經過的距離為100
-    &lt;br /&gt;
-print("經過的距離為%3d" % 100)&gt;&gt;經過的距離為(三個空格)100
-    &lt;br /&gt;
-print("經過的距離為%03f" %100)&gt;&gt;經過的距離為100   
-&lt;/section&gt;
-  
-&lt;section&gt;
-1.%d不能用於代數
-    &lt;br /&gt;
-2.%f會讓答案默認為6個小數位
-    &lt;br /&gt;
-3.%.n會讓小數位變n位
-    &lt;br /&gt;
-4.%0n會用0把答案填到第n位
-    &lt;br /&gt;
-5.%n可以讓答案距離前面的文字n個空格
-&lt;/section&gt;
-  
-&lt;section&gt;
-還有另外一種表示方法,規則如下:   
-print("經過的距離為{0:d}".format(100))&gt;&gt;經過的距離為100   
-    &lt;br /&gt;
-print("經過的距離為{0:3d}".format(100))&gt;&gt;經過的距離為   100   
-    &lt;br /&gt;
-print("經過的距離為{0:f}".format(100))&gt;&gt;經過的距離為100.000000   
-    &lt;br /&gt;
-    "0:"後面的代碼與前面規則相同   
-同樣地，d不能用在代數上   
-&lt;/section&gt;
-  
-&lt;section&gt;
-如果要讓答案顯示多個數字,我們可以:
- &lt;br/&gt;print("速率為{0:d},時間為{1:3d},距離為{2:d}".format(5,20,100)),   
-    &lt;br /&gt;
- 可以得到:速率為5、時間為20、距離為100
-&lt;/section&gt;
-  
-&lt;section&gt;
-也可以把這個代數弄成互動式的，運行之後輸入你要的數字，最後得到答案:   
-    &lt;br /&gt;
-速率=input("速率是多少")
-    &lt;br /&gt;
-時間=input("時間是多少")
-     &lt;br /&gt;
-距離=速率*時間
-    &lt;br /&gt;
-print(距離)
-&lt;/section&gt;
-
-&lt;section&gt;
-&lt;h1&gt;心得&lt;/h1&gt;
-這個方法可以先預定好一個式子，之後將變數輸入進去即可完成演練。可以縮短人工運算的時間，對工程問題上也有相當的幫助。
-&lt;/section&gt;
-  
-&lt;section&gt;
-&lt;h1&gt;自評&lt;/h1&gt;
-學得不錯，自評70分
-&lt;/section&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    // 啟動 Reveal.
-    Reveal.initialize({
-    });
-&lt;/script&gt;
-	
-&lt;/body&gt;
-
-</t>
-<t tx="leo.20151115113314.1">@language html
-&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8"&gt;
-&lt;title&gt;40423254作業五&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
-	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
-	&lt;!--增加對於 IE 早期版本的支援 --&gt;
-	&lt;!--[if lt IE 9]&gt;
-	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
-	&lt;![endif]--&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
-&lt;div class="reveal"&gt;
-&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
-&lt;div class="slides"&gt;
-&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;zero to hero python教學5&lt;/h1&gt;
-    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
-&lt;/section&gt;
-
 &lt;section id="hw-task-five"&gt;
+&lt;section&gt;
+  
+&lt;/section&gt;
     &lt;h1&gt;日期計算&lt;/h1&gt;
  python互動的進階模式,可以直接取電腦上的時間來進行計算
 &lt;/section&gt;
   
 &lt;section&gt;
-我們先輸入電腦時間，指令為:
+我們先導入電腦時間,指令為:
 &lt;br /&gt;
 import dateline
 &lt;br /&gt;
-之後我們輸入現在時間，指令為:
+之後我們輸入現在時間,指令為:
 &lt;br /&gt;
 currentDate = datetime.date.today()
 &lt;br /&gt;
+最後還是用print來做輸出
+&lt;br /&gt;
 print(currentDate)
 &lt;br /&gt;
-接著就可以讓電腦用python認出電腦時間
+就可以讓電腦用python認出電腦時間
 &lt;/section&gt;
 				
 &lt;section&gt;
@@ -2462,7 +1945,6 @@ print(currentDate.year)
 &lt;br /&gt;
 可以得到年
 &lt;/section&gt;
-
 &lt;section&gt;
 &lt;h1&gt;使用strftime指令&lt;/h1&gt;
 strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通常是以書本或網路來記載:
@@ -2479,15 +1961,336 @@ strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通�
 &lt;/section&gt;
   
 &lt;section&gt;
-&lt;h1&gt;心得&lt;/h1&gt;
-這個指令可以將電腦目前的時間顯示出來。每次出資料時若打上此指令，以後確認資料時更可以輕鬆快速。
+&lt;h1&gt;對課程的一些感想&lt;/h1&gt;
+在python的語法下,兩種不同的語法也有可能會產生一樣的結果,而在部份情況下,strftime這個指令或許可以讓工作處理得更效率
 &lt;/section&gt;
   
 &lt;section&gt;
 &lt;h1&gt;自評&lt;/h1&gt;
-比之前的來說算有點難，學得比較慢，自評68分。
+在第一次上這個課程時,真的很難理解上課內容,因為從來沒有碰過有關程式的東西,不過大家的情況就差不多,所以只要跟著老師的步調走就不怕了,雖然有幾次上課都是在練習而且我在學校就做完了我不知道要拍什麼影片,希望以後老師可以在每次下課前說本周作業。自評分60分
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+
+</t>
+<t tx="leo.20160115145753.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業七&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學7&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-one"&gt;
+      &lt;h1&gt;內容&lt;/h1&gt;
+    &lt;p&gt;影片內容是在說如何將今天的日期及時間打出來,及設定日期及時間的格式&lt;/p&gt;
+    &lt;p&gt;%b :是月份縮寫&lt;/p&gt;
+    &lt;p&gt;%B :是完整的月份名稱&lt;/p&gt;
+    &lt;p&gt;%Y :是四位數的年份&lt;/p&gt;
+    &lt;p&gt;%a :是星期名稱簡化&lt;/p&gt;
+    &lt;p&gt;%A :是完整名稱&lt;/p&gt;
+    &lt;p&gt;%d :是該月的天  &lt;/p&gt;
+    &lt;p&gt;%H :小時（ 24小時制）&lt;/p&gt;
+    &lt;p&gt;%I :小時（ 12小時制） %s :秒&lt;/p&gt;
+    &lt;p&gt;%p :上午或下午 %m :分鐘&lt;/p&gt;
+    &lt;p&gt; &lt;a href=""&gt;&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;自評60分&lt;/p&gt;
+    &lt;p&gt;&lt;a href=""&gt;&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+
+</t>
+<t tx="leo.20160115145755.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業八&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+&lt;h1&gt;上課內容心得&lt;/h1&gt;
+學校網路出現問題了電腦輔助設計室今天被迫全面使用純 IPV6 協定上網, 目前唯一需要利用 Flexnet 認証的 PTC Creo Parametric 2.0 伺服器, 操作系統雖然已經採用 IPV4/IPV6 雙協定上網, 但是 Flexnet 相關系統仍採 IPV4 協定, 因此在 client 全部使用純 IPV6 的情況下, 無法啟動 Creo 2.0.。
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+
+</t>
+<t tx="leo.20160115145757.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業九&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;有關我的作業&lt;/h1&gt;
+    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;作業任務一&lt;/h1&gt;
+    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;</t>
+<t tx="leo.20160115145758.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;有關我的作業&lt;/h1&gt;
+    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;作業任務一&lt;/h1&gt;
+    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;</t>
+<t tx="leo.20160115145759.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十一&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學11&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-seven"&gt;
+&lt;h2&gt;if相關指令&lt;/h2&gt;
+通常會搭配會有不同答案的指令，像input，random等使用，在輸入不同的指令可以輸出不同的答案
 &lt;/section&gt;
 
+&lt;section&gt;
+&lt;h2&gt;我們做個簡單的示範&lt;/h2&gt;
+&lt;br /&gt;
+天數=input('一個禮拜有___天?')
+&lt;br /&gt;
+if 天數&gt;7:
+&lt;br /&gt;
+　　print(太多了)
+&lt;br /&gt;
+elif 天數&lt;7:
+&lt;br /&gt;
+　　print(太少了)
+&lt;br /&gt;
+elif 天數==7
+&lt;br /&gt;
+　　print(答對了)
+&lt;br /&gt;
+else :
+&lt;br /&gt;
+    print(輸入的不是數字)
+&lt;/section&gt;
+&lt;section&gt;
+input在前面提到過，是個可以提出問題互動的字串
+&lt;br /&gt;
+if=的條件如果符合，就可以觸發下面的子字串
+&lt;br/&gt;
+elif是else if的縮寫，銜接在if的下面，與if有相同的用法及用途
+&lt;br/&gt;
+else通常做為if字串的收尾，表示"上述條件以外"觸發下面的子字串
+&lt;/section&gt;
+&lt;section&gt;
+也有一些在if指令中很實用的字元
+&lt;br /&gt;
+true/false指令:
+&lt;br /&gt;
+可以做為開關使用，字串=true來開，字串=false來關，可間接寫入開或關的時候觸發字串
+&lt;br /&gt;
+.upper()指令:
+&lt;br /&gt;
+接在input後面，可以把輸入的大小寫默認為大寫
+&lt;br /&gt;
+輸入a或A都會讀成A
+&lt;/section&gt;
+&lt;section&gt;
+if指令通常會出錯在子字串的設定，跟條件的不足/錯誤，錯誤會很難檢查，輸入的時候要注意
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;心得與自評&lt;/h2&gt;
+在上課與作業用這個指令不少次，雖然至今還是挺容易出錯的，但對這個不錯用的指令也有一些認識。
+&lt;br /&gt;
+個人給自己70分
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
@@ -2500,503 +2303,803 @@ strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通�
 	
 &lt;/body&gt;
 </t>
-<t tx="leo.20151115113447.1">@language md
-Title: 2015 計算機程式 作業二
-Date: 2015-09-19 11:41
-Category: Python
-Tags: pelican, publishing
-Slug: 2015cp_hw_w2
-Authors: 40423254
-Summary: 作業二摘要
+<t tx="leo.20160115145801.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十二&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學12&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-eight"&gt;
+    &lt;h1&gt;python也會畫畫?&lt;/h1&gt;
+在python除了可以導入random，我們也可以導入一個叫turtle的指令，可以命令這隻"烏龜"來幫我們走出路徑。
+&lt;br /&gt;
+要導入這條烏龜，輸入:
+&lt;br /&gt;
+import turtle
+&lt;/section&gt;
+  
+&lt;section&gt;
+&lt;h2&gt;我們可以命令這條烏龜:&lt;/h2&gt;
 
-以下為作業二內容
+&lt;br /&gt;
+前進:turtle.forward(100)
+&lt;br /&gt;
+讓烏龜前進100個單位，前進默認為向右走
+&lt;br /&gt;
+轉彎:turtle.right(90)
+&lt;br /&gt;
+讓烏龜向右轉90度，相對left就是向左轉
+&lt;br /&gt;
+上色:turtle.color(顏色名，例如red)
+&lt;br /&gt;
+就是幫線條上色
+&lt;/section&gt;
+				
+&lt;section&gt;
+有上面這些指令就能做出一個多邊形了，但要做出很多邊了話可能會很麻煩，這個時候我們可以用一個重複指令
+&lt;br /&gt;
+for i in range(次數)
+&lt;br /&gt;
+這個指令可以讓後續的指令重複次數次，其中"i"可以帶入任何數字外的字眼來作代數
+&lt;br /&gt;
+for i in range(4)
+&lt;br /&gt;
+    print("hello")
+&lt;br /&gt;
+就能輸出
+&lt;br /&gt;
+hello
+&lt;br /&gt;
+hello
+&lt;br /&gt;
+hello
+&lt;br /&gt;
+hello
+&lt;/section&gt;
+&lt;section&gt;
+實際運用在烏龜上了話，我們可以這麼來:
+&lt;br /&gt;
+for i in range(4):
+&lt;br /&gt;
+　　turtle.forward(300)
+&lt;br /&gt;
+　　turtle.right(90)
+&lt;br /&gt;
+烏龜就會前進300單位之後右轉90度重複4次，即畫出一個正方形
+&lt;/section&gt;
+&lt;section&gt;
+甚至也能在for i in range裡面再加一個for i in range，可以重複運行重複指令，做出乘法的效果。
+&lt;br /&gt;
+for i in range(4):
+&lt;br /&gt;
+　　turtle.forward(100)
+&lt;br /&gt;
+　　turtle.right(90)
+&lt;br /&gt;
+　　　　for i in range(4)
+&lt;br /&gt;
+　　　　　　turtle.forward(50)
+&lt;br /&gt;
+　　　　　　turtle.right(90)
+&lt;br/&gt;
+猜猜看這樣的語法會有怎麼樣的效果呢?
+&lt;/section&gt;
 
-利用 iframe 嵌入投影片:
+&lt;section&gt;
+第一個迴圈指示了前進100之後轉90度，進入第二個迴圈進行四次的前進50右轉90度的迴圈重複四次，即4x(1+4)=20步，路徑會變成一個田字型
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;心得與自評&lt;/h2&gt;
+雖然說的是烏龜畫線，但其中for i in range的指令也相當好用也順便一起說明，也可以增加自己對這個指令的認識與熟悉。
+&lt;br /&gt;
+個人給自己75分
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
 
-&lt;iframe src="40423254_cp_w2_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-[作業一投影片](40423254_cp_w2_p.html){:target="_blank"}
-
-使用 H1 標題
-============
-
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
-
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
-
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
-
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
-
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
-
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
-
-H2 標題
-------------
-
-有數字的表列資料:
-
- 1. 第1項
- 2. 第2項
- 3. 第3項
-
-跟前面一樣, 文字從第四個欄位開始.
-
-程式碼的表達:
-
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
-
-這裡也是要空4個 space 鍵. 
-
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
-
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
-}
-~~~
-
-(這樣的表達比較容易用來複製程式碼內容).
-
-python 的程式碼, 可以寫成下列格式
-
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
-
-以下為另外一種嵌入程式碼的方法:
-
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
-
-### H3 標題 ###
-
-以下則為內嵌式的表列法t:
-
- 1. 首先, 將完成下列元件的設計:
-
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
-
- 2. 接著連繫工業設計部門.
-
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
-
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
-
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
-
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
-
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
-
-[^1]: 註腳會連結到這裡.
-
-放入圖檔, 可以直接利用 html 的 img 標註:
-
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
-
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
-
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </t>
-<t tx="leo.20151115113449.1">@language md
-Title: 2015 計算機程式 作業三
-Date: 2015-09-19 11:41
-Category: Python
-Tags: pelican, publishing
-Slug: 2015cp_hw_w3
-Authors: 40423254
-Summary: 作業三摘要
+<t tx="leo.20160115145802.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十三&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學13&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;循環指令&lt;/h2&gt;
+這個指令並不是特別的字串,而是利用加減法的方式得到循環的效果
+&lt;/section&gt;
+  
+&lt;section&gt;
+&lt;h2&gt;次數=次數+1?&lt;/h2&gt;
+在正常的算術中這個式子看起來相當不合理，那麼在這個次數+1到底能做怎麼樣的事情呢?
+&lt;/section&gt;
+				
+&lt;section&gt;
+我們可以先設定"次數"的初始次數，例如:
+&lt;br /&gt;
+次數=0
+&lt;br /&gt;
+再來設定"次數"的上限:
+&lt;br /&gt;
+while=次數&lt;4(while是如果指令)
+&lt;br /&gt;
+再來在下面設定:
+&lt;br /&gt;
+次數=次數+1(也可以寫作次數+=1)
+&lt;br /&gt;
+最後在中間加入想要循環的內容，就可以達到迴圈的效果了。
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;這個跟for i in range又有什麼不同呢?&lt;/h2&gt;
+for i in range的好處:
+&lt;br /&gt;
+字串短
+&lt;br /&gt;
+適合直接成形的短字串
+&lt;br /&gt;
++=迴圈的好處:
+&lt;br /&gt;
+較有條理
+&lt;br /&gt;
+編輯方便,適合長時間需要修改/寫入的字串
+&lt;br /&gt;
+各有利弊，甚至也可以兩者並用
+&lt;/section&gt;
 
-以下為作業三內容
-
-利用 iframe 嵌入投影片:
-
-&lt;iframe src="40423254_cp_w3_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-[作業一投影片](40423254_cp_w3_p.html){:target="_blank"}
-
-&lt;iframe src="https://player.vimeo.com/video/145711579" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/145711579"&gt;W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-使用 H1 標題
-============
-
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
-
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
-
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
-
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
-
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
-
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
-
-H2 標題
-------------
-
-有數字的表列資料:
-
- 1. 第1項
- 2. 第2項
- 3. 第3項
-
-跟前面一樣, 文字從第四個欄位開始.
-
-程式碼的表達:
-
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
-
-這裡也是要空4個 space 鍵. 
-
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
-
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
-}
-~~~
-
-(這樣的表達比較容易用來複製程式碼內容).
-
-python 的程式碼, 可以寫成下列格式
-
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
-
-以下為另外一種嵌入程式碼的方法:
-
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
-
-### H3 標題 ###
-
-以下則為內嵌式的表列法t:
-
- 1. 首先, 將完成下列元件的設計:
-
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
-
- 2. 接著連繫工業設計部門.
-
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
-
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
-
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
-
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
-
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
-
-[^1]: 註腳會連結到這裡.
-
-放入圖檔, 可以直接利用 html 的 img 標註:
-
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
-
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
-
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;section&gt;
+&lt;h2&gt;心得與自評&lt;/h2&gt;
+字串學得比較多的時候，一個問題往往可以用一種以上的字串來解決他，至於使用哪一種對自己最有利就考驗工程師的技巧了
+&lt;br /&gt;
+個人給自己70分
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
 </t>
-<t tx="leo.20151115113450.1">@language md
-Title: 2015 計算機程式 作業五
-Date: 2015-09-19 11:41
-Category: Python
-Tags: pelican, publishing
-Slug: 2015cp_hw_w5
-Authors: 40423254
-Summary: 作業五摘要
+<t tx="leo.20160115145803.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十四&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學14&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;列表&lt;/h2&gt;
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
+&lt;/section&gt;
+  
+&lt;section&gt;
+我們首先當然需要一串數列：
+&lt;br /&gt;
+id=['a','b','c','d']
+&lt;/section&gt;
+				
+&lt;section&gt;
+&lt;h2&gt;數列的規則&lt;/h2&gt;
+&lt;br /&gt;
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+&lt;br /&gt;
+0，1，2，3......
+&lt;br /&gt;
+也可以用負數：
+&lt;br /&gt;
+......-4，-3，-2，-1(最後算-1)
+&lt;br /&gt;
+利用這些數字來做指定的動作，像a就要用0或-4來指定
 
-以下為作業五內容
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;編輯數列&lt;/h2&gt;
+我們會用到.append，.remove，del等指令，以id為我們的數列
+&lt;br /&gt;
+id.append('名字')：增加字串到最後一項
+&lt;br /&gt;
+id.remove ('名字')：移除字串
+&lt;br /&gt;
+del id(自取)[數字]：移除某個數字
+&lt;/section&gt;
 
-利用 iframe 嵌入投影片:
+&lt;section&gt;
+我們利用上面的規則可以整理出這串簡單的字串：
+&lt;br /&gt;
+id=['1','2','3','4']
+&lt;br /&gt;
+id.remove('4')
+&lt;br /&gt;
+del id[0]
+&lt;br /&gt;
+print (id[0])
+&lt;br /&gt;
+print (id[-1])
+&lt;/section&gt;
 
-&lt;iframe src="40423254_cp_w5_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;section&gt;
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+&lt;/section&gt;
 
-[作業一投影片](40423254_cp_w5_p.html){:target="_blank"}
-
-使用 H1 標題
-============
-
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
-
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
-
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
-
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
-
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
-
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
-
-H2 標題
-------------
-
-有數字的表列資料:
-
- 1. 第1項
- 2. 第2項
- 3. 第3項
-
-跟前面一樣, 文字從第四個欄位開始.
-
-程式碼的表達:
-
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
-
-這裡也是要空4個 space 鍵. 
-
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
-
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
-}
-~~~
-
-(這樣的表達比較容易用來複製程式碼內容).
-
-python 的程式碼, 可以寫成下列格式
-
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
-
-以下為另外一種嵌入程式碼的方法:
-
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
-
-### H3 標題 ###
-
-以下則為內嵌式的表列法t:
-
- 1. 首先, 將完成下列元件的設計:
-
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
-
- 2. 接著連繫工業設計部門.
-
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
-
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
-
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
-
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
-
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
-
-[^1]: 註腳會連結到這裡.
-
-放入圖檔, 可以直接利用 html 的 img 標註:
-
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
-
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
-
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;section&gt;
+&lt;h2&gt;心得與自評&lt;/h2&gt;
+更新字串往往需要費不少神來一個一個找資料，如果我們用字串直接把這些資料輸入進去，會更加方便
+&lt;br /&gt;
+個人給自己70分
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
 </t>
-<t tx="leo.20151115113452.1">@language md
-Title: 2015 計算機程式 作業四
-Date: 2015-09-19 11:41
+<t tx="leo.20160115145804.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十五&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;Python3的近端程式開發系統如何建立&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h2&gt;&lt;/h2&gt;
+從 http://www.python.org/download/ 下載 Python 3.3.1, Doc 與 test scripts 不安裝, 容量大約 26 MB.
+
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#distribute 下載 distribute-0.6.36.win32-py3.3.‌exe, 安裝後約佔
+
+30MB.
+
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip 下載 pip-1.3.1.win32-py3.3.‌exe, 安裝後約佔 32MB.
+
+接著從 http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/ 下載 pywin32-218.win32-py3.3.exe, 安裝
+
+後約佔 58MB.
+
+接著從 http://www.riverbankcomputing.com/software/pyqt/download 下載 PyQt4-4.10-gpl-Py3.3-Qt5.0.1-x32-2.exe, Doc 與 Examples 不安裝, 安裝後約佔 166MB.
+註: 因為安裝 PyQt4/Qt5 必須要從 http://www.microsoft.com/en-us/download/search.aspx?q=directx 更新 directx, 對於沒有更新的電腦就無法讓 Leo Editor 擷取到最新的 directx dll, 因為這不是 Leo 編輯器的問題, 而是 PyQt4 連結 Qt5 dll 所造成的問題
+
+目前還不知道 PyQt5 是否可以在未更新 directx 的情況下讓 2014 年即將退役的 Windows XP 正常使用 Qt5 的 dll
+
+因此依賴 PyQt 的 Leo Editor 根本無法主動修改, 只有兩條路可以走, 就是在 PyQt4 配合 Qt5 的情況下, 更新 Windows 的directx, 或者是回到 PyQt4 與 Qt4 的搭配, 等待 PyQt5 與 Qt5 的版本到來, 然後再看是否能在未更新 dirextx 或更新directx 的操作系統中彼此相容.
+
+這裡我們選擇在 PyQt4/Qt4 的模式下來啟動 Leo 編輯器, 也就從
+
+http://www.riverbankcomputing.com/software/pyqt/download 下載 PyQt4-4.10-gpl-Py3.3-Qt4.8.4-x32.exe, 而非 PyQt4-4.10-gpl-Py3.3-Qt5.0.1-x32-2.exe.
+
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#docutils 下載 docutils-0.10.win32-py3.3.‌exe, 安裝後約佔 172MB.
+
+接著從 http://www.greygreen.org/leo/ 下載 leo-editor-snapshot-20130408.zip, 解開後將 leo 目錄放到 C: \Python33\Lib\site-packages\, 整個 C:\Python33 約為 190MB.
+&lt;/section&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;</t>
+<t tx="leo.20160115145808.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423254作業十八&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;評分流程&lt;/h1&gt;
+    &lt;p&gt;四設計一乙 40423254 蘇柏丞&lt;/p&gt;		
+&lt;/section&gt;
+&lt;section&gt;
+
+1.從各班個人連結頁面中 (2a, 2b, 1a, 1b), 進入各學員在各班倉儲中對應的個人 gh-pages 網頁
+
+2.從上述頁面右下方的 Blogroll 中最下方連結 (名稱為"學號 個人網頁"), 進入學員個人單獨的 gh-pages 網頁
+
+3.根據上述兩個頁面中的資料, 配合各課程的講授內容, 依據 投影片, 操作影片以及頁面上的其他相關檔案資料評分.
+
+4.從各班的協同網頁中, 各組所公佈的分組報告中的 投影片, 操作影片以及頁面上的其他相關檔案資料評分.
+&lt;/section&gt;
+  
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+</t>
+<t tx="leo.20160115150237.1">@language md
+Title: 2015 計算機程式 作業六
+Date: 2016-1-08 17:06
 Category: Python
 Tags: pelican, publishing
-Slug: 2015cp_hw_w4
-Authors: 40423254
-Summary: 作業四摘要
+Slug: 2015cp_hw_w6
+Authors: coursemdetw
+Summary: 作業六摘要
 
-以下為作業四內容
+以下為作業六內容
 
 利用 iframe 嵌入投影片:
 
-&lt;iframe src="40423254_cp_w4_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423254_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-[作業一投影片](40423254_cp_w4_p.html){:target="_blank"}
+[作業六投影片](40423254_cp_w1_p.html){:target="_blank"}
 
-使用 H1 標題
-============
+&lt;iframe src="https://player.vimeo.com/video/145711407" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/145711407"&gt;W1&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20160115150239.1">@language md
+Title: 2015 計算機程式 作業七
+Date: 2016-1-08 17:07
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w7
+Authors: coursemdetw
+Summary: 作業七摘要
 
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
+以下為作業七內容
 
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
+利用 iframe 嵌入投影片:
 
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
+&lt;iframe src="40423254_cp_w7_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
+[作業七投影片](40423254_cp_w1_p.html){:target="_blank"}
 
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
+&lt;iframe src="https://player.vimeo.com/video/145711407" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/145711407"&gt;W1&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20160115150240.1">@language md
+Title: 2015 計算機程式 作業八
+Date: 2016-1-08 17:08
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w8
+Authors: coursemdetw
+Summary: 作業八摘要
 
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
+以下為作業八內容
 
-H2 標題
-------------
+利用 iframe 嵌入投影片:
 
-有數字的表列資料:
+&lt;iframe src="40423254_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
- 1. 第1項
- 2. 第2項
- 3. 第3項
+[作業八投影片](40423254_cp_w8_p.html){:target="_blank"}</t>
+<t tx="leo.20160115150242.1">@language md
+Title: 2015 計算機程式 作業九
+Date: 2016-1-08 17:09
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w9
+Authors: coursemdetw
+Summary: 作業九摘要
 
-跟前面一樣, 文字從第四個欄位開始.
+以下為作業九內容
 
-程式碼的表達:
+利用 iframe 嵌入投影片:
 
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
+&lt;iframe src="40423254_cp_w9_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-這裡也是要空4個 space 鍵. 
+[作業九投影片](40423254_cp_w9_p.html){:target="_blank"}</t>
+<t tx="leo.20160115150243.1">@language md
+Title: 2015 計算機程式 作業十
+Date: 2016-1-08 17:10
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w10
+Authors: coursemdetw
+Summary: 作業十摘要
 
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
+以下為作業十內容
 
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
+利用 iframe 嵌入投影片:
+
+&lt;iframe src="40423254_cp_w10_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+[作業十投影片](40423254_cp_w10_p.html){:target="_blank"}</t>
+<t tx="leo.20160115150245.1">@language md
+Title: 2015 計算機程式 作業十一
+Date: 2016-1-08 17:11
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w11
+Authors: coursemdetw
+Summary: 作業十一摘要
+
+以下為作業十一內容
+
+利用 iframe 嵌入投影片:
+
+[作業十一投影片](40423254_cp_w11_p.html){:target="_blank"}
+
+&lt;iframe src="40423254_cp_w11_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/148600108" width="500" height="283" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/148600108"&gt;W11_1&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/148600109" width="500" height="283" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/148600109"&gt;W11_2&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+[作業十一投影片](40423202_cp_w1_p.html){:target="_blank"}</t>
+<t tx="leo.20160115150246.1">@language md
+Title: 2015 計算機程式 作業十二
+Date: 2016-1-08 17:12
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w12
+Authors: coursemdetw
+Summary: 作業十二摘要
+
+以下為作業十二內容
+
+利用 iframe 嵌入投影片:
+
+[作業十二投影片](40423254_cp_w12_p.html){:target="_blank"}
+
+&lt;iframe src="40423254_cp_w12_p.html" width="500" height="300"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20160115150247.1">@language md
+Title: 2015 計算機程式 作業十三
+Date: 2016-1-08 17:13
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w13
+Authors: coursemdetw
+Summary: 作業十三摘要
+
+以下為作業十三內容
+
+利用 iframe 嵌入投影片:
+
+[作業十三投影片](40423254_cp_w13_p.html){:target="_blank"}
+
+&lt;iframe src="40423254_cp_w13_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/148600733" width="500" height="283" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/148600733"&gt;W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user45596496"&gt;蘇柏丞&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20160115150248.1">@language md
+Title: 2015 計算機程式 作業十四
+Date: 2016-1-08 17:14
+Category: python
+Tags: w14, brython
+Slug: 2015cp_hw_w14
+Authors: 40423254
+Summary: Brython 繪圖
+
+以下利用 Brython 在網頁寫 Python 繪圖
+
+&lt;!-- 導入 brython.js --&gt;
+
+&lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
 }
-~~~
+&lt;/script&gt;
 
-(這樣的表達比較容易用來複製程式碼內容).
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
 
-python 的程式碼, 可以寫成下列格式
+&lt;canvas id="plotarea" width="300" height="200"&gt;&lt;/canvas&gt;
 
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
 
-以下為另外一種嵌入程式碼的方法:
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
 
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
+# 開始畫直線
+ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 100)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
 
-### H3 標題 ###
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.moveTo(100, 0)
+ctx.lineTo(0, 100)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
 
-以下則為內嵌式的表列法t:
+x = 100
+y = 100
 
- 1. 首先, 將完成下列元件的設計:
+# 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
+console.log("x 值為"+str(x)+", y 值為"+str(y))
+&lt;/script&gt;</t>
+<t tx="leo.20160115150250.1">@language md
+Title: 2015 計算機程式 作業十五
+Date: 2016-1-08 17:15
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w15
+Authors: coursemdetw
+Summary: 作業十五摘要
 
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
+以下為作業十五內容
 
- 2. 接著連繫工業設計部門.
+利用 iframe 嵌入投影片:
 
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
+[作業十五投影片](40423254_cp_w15_p.html){:target="_blank"}
 
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
+&lt;iframe src="40423254_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20160115150252.1">@language md
+Title: 2015 計算機程式 作業十七
+Date: 2016-1-08 17:17
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w17
+Authors: coursemdetw
+Summary: Brython動畫
 
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
+Brython動畫
+==========
+&lt;!-- 導入 brython.js --&gt;
 
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
+&lt;!-- 啟動 brython() --&gt;
 
-[^1]: 註腳會連結到這裡.
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
 
-放入圖檔, 可以直接利用 html 的 img 標註:
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
 
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
+&lt;canvas id="plotarea" width="600" height="400"&gt;&lt;/canvas&gt;
 
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
+&lt;script type="text/python3"&gt;
+# 導入 browser 模組中的 document, 並設為 doc 變數
+from browser import document as doc
 
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+# 導入數學模組
+import math
+
+# 產生各小球的亂數速度用
+import random
+
+# 導入 browser 中的計時器, 建立動畫用
+import browser.timer
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 取畫布的寬與高度
+width = canvas.width
+height = canvas.height
+
+n = 15
+# 已知數列內容個數, 先分別與 None 對應
+x = [None]*n
+y = [None]*n
+vy = [None]*n
+vx = [None]*n
+# 重力加速度, Y 方向向下為正
+g = 0.1
+# 空氣的黏滯阻尼係數
+cor = 0.7 
+# 球的彈力係數
+fr = 0.95
+# 球的半徑
+r = 4
+
+for i in range(n):
+    x[i] = 300
+    y[i] = 100
+    # random.random() 將會產生介於 0 與 1 的浮點亂數
+    vx[i] = 2*(random.random()-.5)
+    vy[i] = 2*(random.random()-.5)
+
+# 更新第 i 球 Y 座標的運算邏輯
+def updateY(i):
+    if ((y[i]+r) &lt; height):
+        #y = height
+        vy[i] += g
+    else:
+        vy[i] = -vy[i]*cor
+        vx[i] *= fr
+    y[i] += vy[i]
+    if ((y[i]+r) &gt; height):
+        y[i] = height-r
+
+# 更新第 i 球 X 座標的運算邏輯
+def updateX(i):
+    if ((x[i]+r) &gt;= width or (x[i]-r) &lt;= 0):
+        vx[i] = -vx[i]*cor
+    x[i] += vx[i]
+    if ((x[i]+r) &gt; width):
+        x[i] = width-r
+    elif ((x[i]-r) &lt; 0):
+        x[i] = r
+
+# 畫圓函式
+def circle(x,y,r):
+    ctx.beginPath()
+    ctx.arc(x, y, r, 0, math.pi*2, True)
+    ctx.fill()
+
+# 寫字函式
+def text(s):
+    ctx.fillStyle = "#ff0000"
+    ctx.font = "30px sans-serif"
+    ctx.textBaseline = "bottom"
+    ctx.fillText(s,0,height)
+
+# 每隔特定時間, 進行動畫繪製
+def animate():
+    # 刷新畫布
+    ctx.clearRect(0, 0, width, height)
+    # 逐一重新繪製小球
+    ctx.fillStyle = "#000000"
+    for i in range(n):
+        updateY(i)
+        updateX(i)
+        circle(x[i],y[i],r)
+
+text("Click me!")
+
+# 畫布點擊後執行的函式
+def on_canvas_click(ev):
+    browser.timer.set_interval(animate,0)
+
+# 只要使用者點擊在畫布上任何地方, 即執行 on_canvas_click 函式
+canvas.bind('click', on_canvas_click, False)
+&lt;/script&gt;</t>
+<t tx="leo.20160115150254.1">@language md
+Title: 2015 計算機程式 作業十八
+Date: 2016-1-08 17:18
+Category: Python
+Tags: pelican, publishing
+Slug: 2015cp_hw_w18
+Authors: coursemdetw
+Summary: 作業十八摘要
+
+以下為作業十八內容
+
+利用 iframe 嵌入投影片:
+
+[作業十八投影片](40423254_cp_w18_p.html){:target="_blank"}
+
+&lt;iframe src="40423254_cp_w18_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
